@@ -1,0 +1,24 @@
+
+.posts {
+  padding: 15px 0;
+}
+.old_posts {
+  margin: 15px 0  0 15px;
+}
+.create_new_posts {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 15px;
+  max-width: 100%;
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+}
+.create_new_posts textarea {
+}
+.create_new_posts button {
+  padding: 8px 12px;
+  width: 100px;
+  margin-left: auto;
+  margin-top: 15px;
+}

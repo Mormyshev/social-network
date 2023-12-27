@@ -1,0 +1,47 @@
+.dialogs {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 15px;
+    margin-top: 10px;
+}
+.dialogs > *{
+    padding: 0 10px;
+}
+
+.dialog {
+
+}
+.messages {
+    color: #5e5e5e;
+    width: 100%;
+}
+.messages > *{
+}
+.message {
+    
+}
+.active {
+    color: rgb(0, 124, 196);
+    font-weight: 600;
+    text-decoration: none;
+}
+.dilogsItems {
+    border-right: 2px solid #000000;
+    display: flex;
+    flex-direction: column;
+    max-width: 51px;
+}
+.dilogsItems > *,
+.messages > *{
+    padding: 20px 0;
+    border-top: 2px solid rgb(94, 196, 255);
+}
+.dilogsItems > *:last-child,
+.messages > *:last-child{
+    border-bottom: 2px solid rgb(94, 196, 255);
+}
+.item {
+    text-decoration: none;
+    color: #000000;
+}
